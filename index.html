@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
     <head>
-        <meta charset="UTF-8">
+               <meta charset="UTF-8">
                <meta http-equiv="x-UA-compatible" Content="IE=edge">
                <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
                <title> portfolio | home</title> 
@@ -9,101 +9,77 @@
                      /* this is internal styling */
                     /* h1 is an element selector */
                      body{
-                        /* background-color: rgb(127, 139, 181 */
+                           background-color:skyblue; 
                           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                          }
-                     .main{
-                        background-color: black; 
-                         }
-               .personalty{
-                            width:456px;
-                          }  
-                     h1{
-                        color:rgb(32, 32, 179);
-                     }    
+                    img{
+                            width:250px;
+                            display: block;
+                            margin:auto;
+                    }
+                 
+                    h1{
+                        color:blue;
+                        text-align:center;
+                    }
                     p{
-                        color:green;
-                        /* font- size*/
+                        color:black;
+                        text-align:center;
                     }
-                    a{
-                        color:red 
-                        /* font: size 64px; */
+                    h3{
+                        color:blue;
+                        text-align: center;
                     }
-                    div{
-                        background-color:white
-                    }
-                 #fristweb{
-                      color:rgba(48, 89, 105, 0.829);font: size 78px;  
-                    }
-                 #secondweb{
-                      color:rgba(202, 30, 30, 0.829);font: size 78px;  
-                    }
-                 #thirdweb{
-                      color:rgba(6, 248, 46, 0.829);font: size 78px;  
-                    }
-    .code_publishing{
-                      color: mediumslateblue;font-size:large
-                    }
-           .training{
-                        color:palevioletred;font: size 312px;
-                    }
-      .more_practice{
-                         color: cornflowerblue;
-                    }
-                 img{
-                        width:250px;
+                    h2{
+                        color:blue;
+                        text-align: center;
                     }
                </style>            
             </head>
   <body>
      <!-- cASCADING STYLE SHEETS CSS -->
     <!-- USING STYLE ATTRIBUTE IN HTML  -->
-    <div class="main"> 
+    <div class="main" id="newclass" > 
         <h1>ADEBAYO OPEMIPO</h1>
+        </div>
         <div class="profile">
-            <img style="width: 250px; " src="./assest/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt="">
-            <!-- <img  src="./assest/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt=""> -->
+              <img src="./assest/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt="" id="new">
+            <!--<img  src="./assest/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt=""> -->
+         </div>   
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p id="added">Lorem ipsum dolor sit amet consectetur</p>
             </div>
-            <p style="font: size 54px "> i am the frontend developer </p>
+            <!-- <p style="font: size 54px "> i am the frontend developer </p> -->
             <div class="code_publishing" id="fristweb">
-                <h3>Eatry</h3>
-                  <p>online eatry site</p>
+                <h3 id="work">Eatry</h3>
+                  <p id="learn" >online eatry site</p>
             </div>
             <div class="training" id="secondweb">
-                <h3>Bookshop</h3>
-             <P>online bookshop</P>
+                <h3 id="work">Bookshop</h3>
+             <P id="learn">online bookshop</P>
             </div>
             <div class="more_practice" id="thirdweb">
-                <h3>Dispatch</h3>
-                <p> online dispatch compatch</p>
+                <h3 id="work">Dispatch</h3>
+                <p id="learn"> online dispatch compatch</p>
             </div>
           <div>
-          <img  class="personalty" src="./assest/IMG_20220709_100949_288.jpg" alt="">
-               <h2>About me</h2>
-               <p sty>I am a frontend developer with skils in HTML,CSS,JAVASCRIPT, Please see some of my work below</p>
+          <img  class="personalty" src="./assest/IMG_20220709_100949_288.jpg" alt="" id="new">
+               <h2 id="revision">About me</h2>
+               <p id="learn">I am a frontend developer with skils in HTML,CSS,JAVASCRIPT, Please see some of my work below</p>
             </div>
             <div class="my works">
                 <div class=" html">
-                    <img src="./assest/download.png" alt="html img" >
-                    <h3>HTML PROJECT</h3>
+                    <img src="./assest/download.png" alt="html img" id="new" >
+                    <h3 id="plus" >HTML PROJECT</h3>
             </div>
             <div class="css">
-                <img src="./assest/css.png" alt="css img" > 
-                <h3>css PROJECT</h3>   
+                <img src="./assest/css.png" alt="css img" id="new" > 
+                <h3 id="plus">css PROJECT</h3>   
          </div> 
          <div class="javascript">
-            <img src="./assest/javascript.png" alt="javascript img" > 
-            <h3>JAVASCRIPT PROJECT</h3>  
+            <img src="./assest/javascript.png" alt="javascript img" id="new" > 
+            <h3 id="plus">JAVASCRIPT PROJECT</h3>  
         </div>
     </div>
     </body>     
-</html>    
-            
-        
-        
-        
-    
-               
-               
+</html>
