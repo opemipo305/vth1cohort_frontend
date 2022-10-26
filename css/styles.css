@@ -1,0 +1,46 @@
+<style>
+                     /* this is internal styling */
+                    /* h1 is an element selector */
+                      body{
+                         background-color: rgb(127, 139, 181 );
+                          font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                          }
+                     h1{
+                        color:blue;
+                        text-align:center;
+                     }
+                     h1{
+                        color:ora;
+                     }
+                     h2{
+                        color:blue;
+                        text-align:center;
+                     }
+                     h3{
+                        color:blue;
+                        text-align:center;
+                     }
+                     p{
+                        color:black;
+                        text-align: center;
+                      }
+                   p{
+                        color:antiquewhite;
+                    }  
+                    a{
+                        color:red 
+                        /* font: size 64px; */
+                    }
+                    div{
+                        background-color:white
+                    }
+      /* .more_practice{
+                        color:black;
+                        text-align: center;
+                    } */
+                 /* img{
+                        width: 250px;
+                        display: block;
+                        margin:auto
+                 } */
+               </style>    
