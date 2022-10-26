@@ -33,6 +33,11 @@
                     div{
                         background-color:white
                     }
+                 img{
+                        display: block;
+                        margin: auto;
+                        width:250px;
+                    }
       /* .more_practice{
                         color:black;
                         text-align: center;
