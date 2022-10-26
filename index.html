@@ -1,126 +1,101 @@
 <!DOCTYPE html>
 <html lang="en"> 
     <head>
-        <meta charset="UTF-8">
+               <meta charset="UTF-8">
                <meta http-equiv="x-UA-compatible" Content="IE=edge">
                <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
                <title> portfolio | home</title> 
                <style>
-                     /* this is internal styling */
+                                     /* this is internal styling */
                     /* h1 is an element selector */
-                     body{
+                    body{
                         /* background-color: rgb(127, 139, 181 */
                           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                          }
-                     .main{
-                        background-color:skyblue; 
-                         }
-               .personalty{
+                      .main{
+                        background-color: black; 
+                         } 
+                .personalty{
                             width:456px;
                           }  
-                     h1{
-                        color:blue;
-                        text-align:center;
-                     }
-                     h2{
-                        color:blue;
-                        text-align:center;
-                     }
-                     h3{
-                        color:blue;
-                        text-align:center;
-                     }
-                     p{
-                        color:black;
-                        text-align: center;
-                      }
-                    a{
-                        color:red 
-                        /* font: size 64px; */
-                    }
-                    div{
-                        background-color:white
-                    }
-                 #fristweb{
-                      color:blue;
-                      text-align:center;
-                    }
-          #secondweb{
-                      color:blue;
-                      text-align:center;
-                    }
-          #thirdweb{
-                      color:blue;
-                      text-align:center;
-                   }
-    .code_publishing{
-                        color:black;
-                        text-align: center;
-                    }
-           .training{
-                       color:black;
-                        text-align: center;
-                    }
-      .more_practice{
-                        color:black;
-                        text-align: center;
-                    }
-                 img{
-                        width: 250px;
-                        display: block;
-                        margin:auto
-                    }
+                      h1{ 
+                         color:rgb(21, 21, 243);
+                         text-align: center;
+                        }     
+                     #newclass{
+                          background-color:rgb(113, 119, 25);
+                        }
+                    #new{
+                            width:250px;
+                            display: block;
+                            margin:auto;
+                        }
+                  #plus{
+                         color:rgb(0, 30, 128);
+                         text-align: center;
+                       }
+                 #added{
+                         font-size:43px;
+                         color:rgb(189, 57, 81);
+                         text-align: center;
+                       }
+                  #learn{
+                          text-align: center;
+                       }
+                  #work{
+                           font-style:italic;
+                           text-align: center;
+                        }
+              #revision{
+                            font-style: initial;
+                            color:violet;
+                            text-align: center;
+                         }
                </style>            
             </head>
-  <body>
+             <body>
      <!-- cASCADING STYLE SHEETS CSS -->
     <!-- USING STYLE ATTRIBUTE IN HTML  -->
-    <div class="main"> 
-        <h1>ADEBAYO OPEMIPO</h1>
+    <div class="main" id="newclass"> 
+        <h1 id="plus">ADEBAYO OPEMIPO</h1>
         <div class="profile">
-            <img style="width: 250px; " src="./assest/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt="">
-            <!-- <img  src="./assest/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt=""> -->
+              <img src="./assest/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt="" id="new">
+            <!--<img  src="./assest/alex-suprun-ZHvM3XIOHoE-unsplash.jpg" alt=""> -->
+         </div>   
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p id="added">Lorem ipsum dolor sit amet consectetur</p>
             </div>
-            <p> i am the frontend developer </p>
-            <div>
-                <h3 id="fristweb">Eatry</h3>
-                  <p class="code_publishing">online eatry site</p>
+            <!-- <p style="font: size 54px "> i am the frontend developer </p> -->
+            <div class="code_publishing" id="fristweb">
+                <h3 id="work">Eatry</h3>
+                  <p id="learn" >online eatry site</p>
             </div>
-            <div>
-                <h3 id="secondweb">Bookshop</h3>
-             <P class="training" >online bookshop</P>
+            <div class="training" id="secondweb">
+                <h3 id="work">Bookshop</h3>
+             <P id="learn">online bookshop</P>
             </div>
-            <div>
-                <h3 id="thirdweb">Dispatch</h3>
-                <p class="more_practice"> online dispatch compatch</p>
+            <div class="more_practice" id="thirdweb">
+                <h3 id="work">Dispatch</h3>
+                <p id="learn"> online dispatch compatch</p>
             </div>
           <div>
-          <img  class="personalty" src="./assest/IMG_20220709_100949_288.jpg" alt="">
-               <h2>About me</h2>
-               <p>I am a frontend developer with skils in HTML,CSS,JAVASCRIPT, Please see some of my work below</p>
+          <img  class="personalty" src="./assest/IMG_20220709_100949_288.jpg" alt="" id="new">
+               <h2 id="revision">About me</h2>
+               <p id="learn">I am a frontend developer with skils in HTML,CSS,JAVASCRIPT, Please see some of my work below</p>
             </div>
             <div class="my works">
                 <div class=" html">
-                    <img src="./assest/download.png" alt="html img" >
-                    <h3>HTML PROJECT</h3>
+                    <img src="./assest/download.png" alt="html img" id="new" >
+                    <h3 id="plus" >HTML PROJECT</h3>
             </div>
             <div class="css">
-                <img src="./assest/css.png" alt="css img" > 
-                <h3>css PROJECT</h3>   
+                <img src="./assest/css.png" alt="css img" id="new" > 
+                <h3 id="plus">css PROJECT</h3>   
          </div> 
          <div class="javascript">
-            <img src="./assest/javascript.png" alt="javascript img" > 
-            <h3>JAVASCRIPT PROJECT</h3>  
+            <img src="./assest/javascript.png" alt="javascript img" id="new" > 
+            <h3 id="plus">JAVASCRIPT PROJECT</h3>  
         </div>
     </div>
     </body>     
-</html>    
-            
-        
-        
-        
-    
-               
-               
+</html>
