@@ -1,0 +1,36 @@
+   /* this is internal styling */
+                    /* h1 is an element selector */
+                    body{
+                        /* background-color: rgb(127, 139, 181 */
+                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                         } 
+                 #fristweb{
+                      color:blue;
+                      text-align:center;
+                    }
+      #more_practice{
+                        color:black;
+                        text-align: center;
+                    }
+                 #work{
+                        width: 250px;
+                        display: block;
+                        margin:auto;
+                    }
+             #nice{
+                      width: 250px;
+                      display: block;
+                      margin:auto
+                  }
+              #money{
+                       display: block;
+                        margin:auto
+                     }
+                #date{
+                         display: block;
+                             margin:auto     
+                     }  
+                #week{
+                         display: block;
+                             margin:auto          
+                     }    
