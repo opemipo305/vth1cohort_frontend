@@ -1,45 +1,28 @@
-                    /* this is internal styling */
+                     /* this is internal styling */
                     /* h1 is an element selector */
-                    body{
-                         /* background-color: rgb(127, 139, 181 */
-                           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                          }
-                       .main{
-                         background-color: black; 
-                          } 
-                 .personalty{
-                             width:456px;
-                           }  
-                       h1{ 
-                          color:rgb(21, 21, 243);
-                          text-align: center;
-                         }     
-                      #newclass{
-                           background-color:rgb(113, 119, 25);
-                         }
-                     #new{
-                             width:250px;
-                             display: block;
-                             margin:auto;
-                         }
-                   #plus{
-                          color:rgb(0, 30, 128);
-                          text-align: center;
-                        }
-                  #added{
-                          font-size:43px;
-                          color:rgb(189, 57, 81);
-                          text-align: center;
-                        }
-                   #learn{
-                           text-align: center;
-                        }
-                   #work{
-                            font-style:italic;
-                            text-align: center;
-                         }
-               #revision{
-                             font-style: initial;
-                             color:violet;
-                             text-align: center;
-                          }
+         body{
+                  background-color:rgb(113, 119, 25);
+               font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+             }
+     div h1,h2,h3{
+                color:blue;
+                text-align:center;
+           }  
+      div p{
+              color:black;
+              text-align: center;
+            }
+    div img{
+             width:257px;
+             display: block;
+              margin: auto;
+          }
+            
+              color:black;
+              text-align: center;
+          } */
+       /* img{
+              width: 250px;
+              display: block;
+              margin:auto 
+       } */
