@@ -1,0 +1,10 @@
+#work{
+         background-color:rgba(255, 255, 0, 0.781);
+         appearance:fixed;
+         writing-mode: inherit;
+         font-style: italic;
+         /* font-variant-ligatures: ; */
+         font-variant-caps:4px  ;
+         font-variant-numeric:56px;
+         text-align-last: center; 
+}
