@@ -25,27 +25,32 @@
         margin-block-end: 1rem;
         margin-inline-start: 16px;
         margin-inline-end: 16px;
-      }  */
-
-
-      .flex-container {
+      } 
+/* } */
+/* body{
+     height:100vh;
+} */
+.flex-container{
         display: flex;
-        height: 600px;
-        background-color: DodgerBlue;
-        flex-wrap: wrap;
-        /* justify-content: center; */
-            justify-content: center;
-          /* align-items: baseline; */
-          align-content:stretch;
-          overflow: scroll;
-    }
+        flex-direction: column;
+        justify-content:space-around;
+       align-items: center;
+         height: 40vh;
+        /* border: 2px;  */
+} 
+.flex-storage{  
+   display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  width: 50%;
+  border: 2px solid;
+  text-align:center;
+}
+.flexing{  
+   display:flex;
+   flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid;
+}
     
-    .flex-container > div {
-          background-color: #06ad83e1;
-        margin: 10px;
-         padding: 20px;
-        font-size: 30px;
-        text-align: center;
-        line-height: 75px;
-        width: 456px;
-      }
