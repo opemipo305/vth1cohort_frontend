@@ -30,14 +30,14 @@
 /* body{
      height:100vh;
 } */
-.flex-container{
+/* .flex-container{
         display: flex;
         flex-direction: column;
         justify-content:space-around;
        align-items: center;
          height: 40vh;
-        /* border: 2px;  */
-} 
+         border: 6px;  
+}  */
 .flex-storage{  
    display:flex;
   flex-direction: row;
@@ -45,12 +45,12 @@
   align-items:center;
   width: 50%;
   border: 2px solid;
-  text-align:center;
+  text-align:end;
 }
 .flexing{  
    display:flex;
    flex-direction: row;
   justify-content: space-between;
-  border: 2px solid;
-}
-    
+  border: 3px solid;
+  width: 50%;
+}    
