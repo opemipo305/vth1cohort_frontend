@@ -1,22 +1,41 @@
-                     /* this is internal styling */
-                    /* h1 is an element selector */
-         body{
-                  background-color:rgb(113, 119, 25);
-               font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-             }
-     div > h1,h2,h3{
-                color:blue;
-                text-align:center;
-           }  
-      div > p{
-              color:black;
-              text-align: center;
-            }
-    div > img{
-             width:257px;
-             display: block;
-              margin: auto;
-          }
-      .new{
-            background-color:rgba(255, 255, 0, 0.781);
-       }    
+div > img{
+   width: 370px;
+   display: block;
+   margin: auto;
+}
+.flex-storage{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+   text-align: center;
+   background-color: #0f171c;
+}
+a{
+   margin: 43px;
+    text-decoration:none;
+    color: antiquewhite;
+}
+.flet{
+   list-style-type:none;
+   display: flex;
+   justify-content: space-around;
+   color: blue;
+}
+#fan{
+   color: #ffcf01;
+}
+#cont{
+   background-color: #ffcf01;
+   color: #0f171c;
+   padding: 21px 59px;
+   border: none;
+}
+#count{
+   background-color: #0f171c;
+   color: #ffcf01;
+   padding: 21px 66px;
+   border: 1px solid #ffcf01;
+}
+.bottle{
+   width: 25px;
+}
