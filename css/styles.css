@@ -1,6 +1,18 @@
+ div >h1,h2,h3{
+               display: flex;
+               align-content: center;
+               text-align: center;
+} 
+ div >p{
+               /* display: flex; */
+               text-align: center;
+} 
+#eye{
+    display: flex;
+}
 div > img{
    width: 370px;
-   display: block;
+   /* display:flex; */
    margin: auto;
 }
 .flex-storage{
